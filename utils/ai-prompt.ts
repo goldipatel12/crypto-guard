@@ -1,4 +1,4 @@
-const apiKey = process.env.NEXT_PUBLIC_API_KEY;
+const apiKey = process.env.SAMBANOVA_AI_API_KEY;
 
 
 export const analyzeContract = async (
