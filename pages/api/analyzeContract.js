@@ -7,7 +7,7 @@ const openai = new OpenAI({
   apiKey: process.env.NEXT_PUBLIC_API_KEY,
 });
 
-export default async function handler(req, res) {
+export default async function post(req, res) {
   try {
     const { contract } = req.body;
     const chatCompletion = await openai.chat.completions.create({
