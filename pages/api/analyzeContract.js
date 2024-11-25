@@ -4,7 +4,7 @@ import { OpenAI } from "openai";
 
 const openai = new OpenAI({
   baseURL: "https://api.sambanova.ai/v1/",
-  apiKey: process.env.SAMBANOVA_AI_API_KEY,
+  apiKey: process.env.NEXT_PUBLIC_API_KEY,
 });
 
 export default async function handler(req, res) {
