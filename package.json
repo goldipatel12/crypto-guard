@@ -16,9 +16,9 @@
     "next": "15.0.3",
     "openai": "^4.73.0",
     "prismjs": "^1.29.0",
-    "react": "19.0.0-rc-66855b96-20241106",
+    "react": "^18.3.1",
     "react-circular-progressbar": "^2.1.0",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "^18.3.1",
     "react-simple-code-editor": "^0.14.1",
     "simplex-noise": "^4.0.3",
     "tailwind-merge": "^2.5.5"
